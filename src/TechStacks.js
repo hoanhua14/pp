@@ -1,9 +1,9 @@
 const TechStacks = () => {
-    const techstacks = [];
+    const techstacks = [1,2,3];
     return (
         <div>techstacks
             <div>
-
+                {techstacks}
             </div>
         </div>
     );
