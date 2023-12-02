@@ -1,10 +1,15 @@
-import TechStacks from "./TechStacks";
+import portPic from "./grayPPic.jpg"
 const AboutMe = () => {
     return (
         <>
-            {/* <img src='https://i.imgur.com/I0qQwpi.png' alt="Logo" width='100'></img> */}
-            <div>Hi, my name is So Hoan.</div>
+            <div >
 
+                <img
+                    src={portPic}
+                    alt="portfolio"
+                    style={{flex:'1', maxWidth:'33%', maxHeight:'50%'}}
+                />
+            </div>
         </>
     )
 };

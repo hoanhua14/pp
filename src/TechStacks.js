@@ -1,10 +1,9 @@
+import github from './techStacks/github.svg'
 const TechStacks = () => {
-    const techstacks = [1,2,3];
+
     return (
         <div>techstacks
-            <div>
-                {techstacks}
-            </div>
+           <img alt='github' src={github}/>
         </div>
     );
 };

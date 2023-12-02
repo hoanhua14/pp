@@ -11,17 +11,17 @@ function App() {
       {/* <div><NavBar/></div> */}
       <Parallax pages={4}>
 
-        <ParallaxLayer offset={0} speed={1} factor={1}
+        <ParallaxLayer offset={0}
           style={{
             backgroundImage: `url(${pinkBg})`,
             backgroundSize: 'cover',
           }}>
-          <div>About me</div>
+          <AboutMe/>
         </ParallaxLayer>
         <ParallaxLayer offset={1}
           style={{
             backgroundImage: `url(${pinkBg})`,
-            // backgroundSize: 'cover',
+            backgroundSize: 'cover',
           }}>
           <div>Tech Stacks</div>
         </ParallaxLayer>
