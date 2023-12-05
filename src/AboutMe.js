@@ -6,7 +6,7 @@ const AboutMe = () => {
 
                 <img
                     src={portPic}
-                    alt="portfolio"
+                    alt="profile"
                     style={{flex:'1', maxWidth:'33%', maxHeight:'50%'}}
                 />
             </div>
