@@ -4,10 +4,10 @@ const AboutMe = () => {
         <>
             <div >
 
-                <img
+                <img className="center"
                     src={portPic}
                     alt="profile"
-                    style={{flex:'1', maxWidth:'33%', maxHeight:'50%'}}
+                    // style={{flex:'1', maxWidth:'33%', maxHeight:'50%'}}
                 />
             </div>
         </>

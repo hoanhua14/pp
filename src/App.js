@@ -1,45 +1,16 @@
-import AboutMe from './AboutMe';
 import NavBar from './Nav';
-import Projects from './Projects';
-import TechStacks from './TechStacks';
+import AboutMe from './AboutMe';
 import './styling/App.css';
-import pinkBg from './pinkBg.jpg'
-import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
   return (
-    <div>
-      {/* <div><NavBar/></div> */}
-      <Parallax pages={4}>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path='/aboutme' element={<AboutMe/>} />
 
-        <ParallaxLayer offset={0}
-          style={{
-            backgroundImage: `url(${pinkBg})`,
-            backgroundSize: 'cover',
-          }}>
-          <AboutMe/>
-        </ParallaxLayer>
-        <ParallaxLayer offset={1}
-          style={{
-            backgroundImage: `url(${pinkBg})`,
-            backgroundSize: 'cover',
-          }}>
-          <div>Tech Stacks</div>
-        </ParallaxLayer>
-        <ParallaxLayer offset={2}
-          style={{
-            backgroundImage: `url(${pinkBg})`,
-            backgroundSize: 'cover',
-          }}>
-          <div>Projects</div>
-        </ParallaxLayer>
-
-        {/* <div className='center-container'>
-          <AboutMe/>
-          <TechStacks/>
-          <Projects/>
-        </div> */}
-      </Parallax>
-    </div>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
