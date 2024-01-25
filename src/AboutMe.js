@@ -1,16 +1,31 @@
-import portPic from "./grayPPic.jpg"
+import profilePic from "./profilePic.png"
 const AboutMe = () => {
     return (
-        <>
-            <div >
+        <div className='background'>
+            <div className="container">
+                <div style={{flex:'1'}} className="center">
+                    <img
+                        src={profilePic}
+                        alt="profile"
+                        height='60%'
 
-                <img className="center"
-                    src={portPic}
-                    alt="profile"
-                    // style={{flex:'1', maxWidth:'33%', maxHeight:'50%'}}
-                />
+                    />
+                </div>
+                <div style={{flex: '2'}} className="center">
+                    Hi! My name is Sohoan. <br/>
+                    I'm a full stack developer who loves building/ automating/ improving. <br/>
+                    Before becoming a software engineer, I majored in Biology because I love anatomy, physiology, and how everything works together.
+
+                </div>
             </div>
-        </>
+
+        </div>
+        // <div className="container">
+        //     <div className="box" id='box1'>1</div>
+        //     <div className="box" id='box2'>2</div>
+        //     <div className="box" id='box3'>3</div>
+        //     <div className="box" id='box4'>4</div>
+        // </div>
     )
 };
 export default AboutMe;
