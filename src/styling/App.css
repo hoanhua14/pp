@@ -18,3 +18,13 @@
 .container {
     display: flex;
 }
+
+.navbar {
+    background-color: #91a886;
+    height: 1cm;
+    color: #3e4839;
+}
+
+.navbartext {
+    color: #293026;
+}
