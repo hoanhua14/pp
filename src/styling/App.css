@@ -26,5 +26,10 @@
 }
 
 .navbartext {
-    color: #293026;
+    color: #3e4839;
+    transition: transform 0.3s;
+    &:hover {
+        color: #293026;
+        transform: scale(1.2);
+    }
 }

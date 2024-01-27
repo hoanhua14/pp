@@ -14,7 +14,8 @@ const AboutMe = () => {
                 <div style={{flex: '2'}} className="center">
                     Hi! My name is Sohoan. <br/>
                     I'm a full stack developer who loves building/ automating/ improving. <br/>
-                    Before becoming a software engineer, I majored in Biology because I love anatomy, physiology, and how everything works together.
+                    Before becoming a software engineer, I majored in Biology because I love anatomy, physiology, and how everything works together. <br/>
+
 
                 </div>
             </div>
