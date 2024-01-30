@@ -33,3 +33,17 @@
         transform: scale(1.2);
     }
 }
+
+.tech-stack {
+    display: flex;
+    gap: 20px;
+ }
+
+ .tech-stack i {
+    font-size: 2em;
+    transition: transform 0.3s;
+ }
+
+ .tech-stack i:hover {
+    transform: scale(1.2);
+ }

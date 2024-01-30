@@ -1,9 +1,11 @@
-import github from './techStacks/github.svg'
+import git from './techStacks/git.svg'
+import js from './techStacks/js.svg'
 const TechStacks = () => {
 
     return (
         <div>techstacks
-           <img alt='github' src={github}/>
+           <img alt='git' src={git}/>
+           <img alt='js' src={js}/>
         </div>
     );
 };
