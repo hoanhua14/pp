@@ -13,7 +13,8 @@ import postgresql from './techStacks/postgresql.svg'
 import mongodb from './techStacks/mongodb.svg'
 import api from './techStacks/api.svg'
 import sql from './techStacks/sql.svg'
-
+import dbsm from './techStacks/dbms.svg'
+import docker from './techStacks/docker.svg'
 
 const TechStacks = () => {
 
@@ -21,8 +22,6 @@ const TechStacks = () => {
         <>
             <div>frontend
 
-                <img className='img' alt='git' src={git}/>
-                <img className='img' alt='github' src={github}/>
                 <img className='img' alt='js' src={js}/>
                 <img className='img' alt='typescript' src={typescript}/>
                 <img className='img' alt='python' src={python}/>
@@ -38,6 +37,13 @@ const TechStacks = () => {
                 <img className='img' alt='mongodb' src={mongodb}/>
                 <img className='img' alt='api' src={api}/>
                 <img className='img' alt='sql' src={sql}/>
+                <img className='img' alt='dbsm' src={dbsm}/>
+            </div>
+            <div>Testing/ Deployment/ Tools
+                <img className='img' alt='git' src={git}/>
+                <img className='img' alt='github' src={github}/>
+                <img className='img' alt='docker' src={docker}/>
+
 
             </div>
         </>
