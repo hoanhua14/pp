@@ -7,7 +7,9 @@
 }
 
 .background {
-    background-color: #d0f0c0;
+    background-color: #d5c9d6;
+    height: 100%;
+    width: 100%;
 }
 
 .box {
@@ -20,7 +22,7 @@
 }
 
 .navbar {
-    background-color: #91a886;
+    background-color: #b39eb5;
     height: 1cm;
     color: #3e4839;
 }

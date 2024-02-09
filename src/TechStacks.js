@@ -19,7 +19,7 @@ import docker from './techStacks/docker.svg'
 const TechStacks = () => {
 
     return (
-        <>
+        <div className='background'>
             <div>frontend
 
                 <img className='img' alt='js' src={js}/>
@@ -46,7 +46,7 @@ const TechStacks = () => {
 
 
             </div>
-        </>
+        </div>
     );
 };
 export default TechStacks;
