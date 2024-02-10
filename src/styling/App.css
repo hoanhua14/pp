@@ -22,9 +22,13 @@
 }
 
 .navbar {
-    background-color: #b39eb5;
+    background-color: #b39eb595;
     height: 1cm;
+    width: 100%;
     color: #3e4839;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(8px);
 }
 
 .navbartext {
@@ -53,4 +57,13 @@
  .img {
     height: 2cm;
     width: 2cm;
+ }
+
+ h1 {
+    font-size: 2rem;
+    font-weight: 600;
+ }
+
+ h1 span {
+    color: #293026;
  }
