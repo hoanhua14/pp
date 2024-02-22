@@ -13,7 +13,7 @@ const AboutMe = () => {
                 </div>
                 <div style={{flex: '2'}} className="center">
                     <div>Hi! My name is Sohoan.</div>
-                    <h1>I'm a <span>Full stack developer</span></h1>
+                    <h1 >I'm a <span>Full stack developer</span></h1>
                 </div>
             </div>
 
